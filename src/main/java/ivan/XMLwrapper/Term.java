@@ -56,16 +56,16 @@ import javax.xml.bind.annotation.XmlType;
 public class Term {
 
     @XmlSchemaType(name = "nonNegativeInteger")
-    protected List<BigInteger> arg;
+    private List<BigInteger> arg;
     @XmlSchemaType(name = "nonNegativeInteger")
-    protected BigInteger arg1;
-    protected Term operation1;
-    protected Term operation2;
+    private BigInteger arg1;
+    private Term operation1;
+    private Term operation2;
     @XmlSchemaType(name = "nonNegativeInteger")
-    protected BigInteger arg2;
-    protected List<Term> operation;
+    private BigInteger arg2;
+    private List<Term> operation;
     @XmlAttribute(name = "OperationType")
-    protected String operationType;
+    private String operationType;
 
     /**
      * Gets the value of the arg property.
@@ -91,7 +91,7 @@ public class Term {
      */
     public List<BigInteger> getArg() {
         if (arg == null) {
-            arg = new ArrayList<BigInteger>();
+            arg = new ArrayList<>();
         }
         return this.arg;
     }
@@ -216,7 +216,7 @@ public class Term {
      */
     public List<Term> getOperation() {
         if (operation == null) {
-            operation = new ArrayList<Term>();
+            operation = new ArrayList<>();
         }
         return this.operation;
     }

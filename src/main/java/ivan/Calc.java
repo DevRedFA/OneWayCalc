@@ -8,8 +8,6 @@ import java.math.*;
 import java.util.LinkedList;
 import java.util.List;
 
-
-import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,12 +18,6 @@ import org.slf4j.LoggerFactory;
 
 public class Calc {
     public static final Logger logger = LoggerFactory.getLogger(Calc.class); //LoggerOne
-    private static String log4jConfPath = "D:\\project\\OneWayCalc\\scr\\main\\resources\\log4j.properties";
-
-    static {
-        PropertyConfigurator.configure(log4jConfPath);
-    }
-
     private LinkedList<BigDecimal> results = new LinkedList<>();
     private LinkedList<SimpleCalculator.ExpressionResults.ExpressionResult> resultsExpr = new LinkedList<>();
     private JAXBContext jc;
@@ -89,7 +81,6 @@ public class Calc {
 
 
     public static void main(String[] args) {
-        //        BasicConfigurator.configure();
         logger.info("-----------------------------------------------------");
         logger.info("Starting new run with params: {}, {}", args[0], args[1]);
         logger.info("-----------------------------------------------------{}", System.lineSeparator());

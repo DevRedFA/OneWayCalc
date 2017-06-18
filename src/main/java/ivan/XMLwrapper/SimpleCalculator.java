@@ -78,18 +78,18 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "simpleCalculator")
 public class SimpleCalculator {
 
-    protected SimpleCalculator.Expressions expressions;
-    protected SimpleCalculator.ExpressionResults expressionResults;
+    private Expressions expressions;
+    private ExpressionResults expressionResults;
 
     /**
      * Gets the value of the expressions property.
      * 
      * @return
      *     possible object is
-     *     {@link SimpleCalculator.Expressions }
+     *     {@link Expressions }
      *     
      */
-    public SimpleCalculator.Expressions getExpressions() {
+    public Expressions getExpressions() {
         return expressions;
     }
 
@@ -98,10 +98,10 @@ public class SimpleCalculator {
      * 
      * @param value
      *     allowed object is
-     *     {@link SimpleCalculator.Expressions }
+     *     {@link Expressions }
      *     
      */
-    public void setExpressions(SimpleCalculator.Expressions value) {
+    public void setExpressions(Expressions value) {
         this.expressions = value;
     }
 
@@ -110,10 +110,10 @@ public class SimpleCalculator {
      * 
      * @return
      *     possible object is
-     *     {@link SimpleCalculator.ExpressionResults }
+     *     {@link ExpressionResults }
      *     
      */
-    public SimpleCalculator.ExpressionResults getExpressionResults() {
+    public ExpressionResults getExpressionResults() {
         return expressionResults;
     }
 
@@ -122,10 +122,10 @@ public class SimpleCalculator {
      * 
      * @param value
      *     allowed object is
-     *     {@link SimpleCalculator.ExpressionResults }
+     *     {@link ExpressionResults }
      *     
      */
-    public void setExpressionResults(SimpleCalculator.ExpressionResults value) {
+    public void setExpressionResults(ExpressionResults value) {
         this.expressionResults = value;
     }
 
@@ -166,7 +166,7 @@ public class SimpleCalculator {
     public static class ExpressionResults {
 
         @XmlElement(required = true)
-        protected List<SimpleCalculator.ExpressionResults.ExpressionResult> expressionResult;
+        List<ExpressionResult> expressionResult;
 
         /**
          * Gets the value of the expressionResult property.
@@ -186,13 +186,13 @@ public class SimpleCalculator {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link SimpleCalculator.ExpressionResults.ExpressionResult }
+         * {@link ExpressionResult }
          * 
          * 
          */
-        public List<SimpleCalculator.ExpressionResults.ExpressionResult> getExpressionResult() {
+        public List<ExpressionResult> getExpressionResult() {
             if (expressionResult == null) {
-                expressionResult = new ArrayList<SimpleCalculator.ExpressionResults.ExpressionResult>();
+                expressionResult = new ArrayList<>();
             }
             return this.expressionResult;
         }
@@ -223,7 +223,7 @@ public class SimpleCalculator {
         })
         public static class ExpressionResult {
 
-            protected double result;
+            double result;
 
             /**
              * Gets the value of the result property.
@@ -282,7 +282,7 @@ public class SimpleCalculator {
     public static class Expressions {
 
         @XmlElement(required = true)
-        protected List<SimpleCalculator.Expressions.Expression> expression;
+        List<Expression> expression;
 
         /**
          * Gets the value of the expression property.
@@ -302,13 +302,13 @@ public class SimpleCalculator {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link SimpleCalculator.Expressions.Expression }
+         * {@link Expression }
          * 
          * 
          */
-        public List<SimpleCalculator.Expressions.Expression> getExpression() {
+        public List<Expression> getExpression() {
             if (expression == null) {
-                expression = new ArrayList<SimpleCalculator.Expressions.Expression>();
+                expression = new ArrayList<>();
             }
             return this.expression;
         }
@@ -340,7 +340,7 @@ public class SimpleCalculator {
         public static class Expression {
 
             @XmlElement(required = true)
-            protected Term operation;
+            Term operation;
 
             /**
              * Gets the value of the operation property.

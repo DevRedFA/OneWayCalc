@@ -3,16 +3,16 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../build/classes/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../scr/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../scr/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../scr/main/java" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
-    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.5" level="project" />
     <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>

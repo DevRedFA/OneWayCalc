@@ -959,3 +959,195 @@ INFO  Calc:58 - Creating new Object factory
 2017-06-18 20:29:20 INFO  Calc:68 - Adding result number 1
 2017-06-18 20:29:20 INFO  Calc:76 - Packing results to XML
 
+2017-06-18 21:50:12 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 21:50:13 INFO  Calc:93 - -----------------------------------------------------
+2017-06-18 21:50:13 INFO  Calc:94 - Starting new run with params: D:\project\OneWayCalc\sampleTest.xml, D:\project\OneWayCalc\ResultSampleTest.xml
+2017-06-18 21:50:13 INFO  Calc:95 - -----------------------------------------------------
+
+2017-06-18 21:50:13 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 21:50:13 INFO  Calc:49 - Getting data from XML: D:\project\OneWayCalc\sampleTest.xml
+2017-06-18 21:50:13 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@7181ae3f
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@46238e3f
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@46238e3f
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@6e2c9341
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@6e2c9341
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@32464a14
+2017-06-18 21:50:13 INFO  Calc:135 - counting 2 SUM 4
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@4e4aea35
+2017-06-18 21:50:13 INFO  Calc:146 - counting 1 DIV 4
+2017-06-18 21:50:13 INFO  Calc:138 - counting 6.00000000000 SUB 0.25000000000
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@517cd4b
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@517cd4b
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@6cc7b4de
+2017-06-18 21:50:13 INFO  Calc:135 - counting 12 SUM 55
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@32cf48b7
+2017-06-18 21:50:13 INFO  Calc:141 - counting 123 MUL 4
+2017-06-18 21:50:13 INFO  Calc:138 - counting 67.00000000000 SUB 492.00000000000
+2017-06-18 21:50:13 INFO  Calc:141 - counting 5.75000000000 MUL -425.00000000000
+2017-06-18 21:50:13 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@679b62af
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@5cdd8682
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@5cdd8682
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@d6da883
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@d6da883
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@45afc369
+2017-06-18 21:50:13 INFO  Calc:146 - counting 211 DIV 114
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@799d4f69
+2017-06-18 21:50:13 INFO  Calc:146 - counting 13 DIV 41
+2017-06-18 21:50:13 INFO  Calc:141 - counting 1.85087719298 MUL 0.31707317073
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@49c43f4e
+2017-06-18 21:50:13 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@49c43f4e
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@290dbf45
+2017-06-18 21:50:13 INFO  Calc:135 - counting 123 SUM 1235
+2017-06-18 21:50:13 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@12028586
+2017-06-18 21:50:13 INFO  Calc:141 - counting 55 MUL 1111
+2017-06-18 21:50:13 INFO  Calc:138 - counting 1358.00000000000 SUB 61105.00000000000
+2017-06-18 21:50:13 INFO  Calc:138 - counting 0.58686350021 SUB -59747.00000000000
+2017-06-18 21:50:13 INFO  Calc:63 - Creating new Object factory
+2017-06-18 21:50:13 INFO  Calc:68 - Adding result number 0
+2017-06-18 21:50:13 INFO  Calc:68 - Adding result number 1
+2017-06-18 21:50:13 INFO  Calc:76 - Packing results to XML
+
+2017-06-18 22:01:23 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 22:01:23 INFO  Calc:93 - -----------------------------------------------------
+2017-06-18 22:01:23 INFO  Calc:94 - Starting new run with params: D:\project\OneWayCalc\sampleTest.xml, D:\project\OneWayCalc\ResultSampleTest.xml
+2017-06-18 22:01:23 INFO  Calc:95 - -----------------------------------------------------
+
+2017-06-18 22:01:23 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 22:01:23 INFO  Calc:49 - Getting data from XML: D:\project\OneWayCalc\sampleTest.xml
+2017-06-18 22:01:23 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@75d0da3
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@d3775a6
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@d3775a6
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@49b5ec2f
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@49b5ec2f
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@6864aaa5
+2017-06-18 22:01:23 INFO  Calc:135 - counting 2 SUM 4
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@73b921f
+2017-06-18 22:01:23 INFO  Calc:146 - counting 1 DIV 4
+2017-06-18 22:01:23 INFO  Calc:138 - counting 6.00000000000 SUB 0.25000000000
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@4a5d02d4
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@4a5d02d4
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@355be916
+2017-06-18 22:01:23 INFO  Calc:135 - counting 12 SUM 55
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@62c71e46
+2017-06-18 22:01:23 INFO  Calc:141 - counting 123 MUL 4
+2017-06-18 22:01:23 INFO  Calc:138 - counting 67.00000000000 SUB 492.00000000000
+2017-06-18 22:01:23 INFO  Calc:141 - counting 5.75000000000 MUL -425.00000000000
+2017-06-18 22:01:23 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@6867a079
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@4a0e5403
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@4a0e5403
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@20f7070d
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@20f7070d
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@7a18187b
+2017-06-18 22:01:23 INFO  Calc:146 - counting 211 DIV 114
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@2fa90b29
+2017-06-18 22:01:23 INFO  Calc:146 - counting 13 DIV 41
+2017-06-18 22:01:23 INFO  Calc:141 - counting 1.85087719298 MUL 0.31707317073
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@17bfec93
+2017-06-18 22:01:23 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@17bfec93
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@fe85e06
+2017-06-18 22:01:23 INFO  Calc:135 - counting 123 SUM 1235
+2017-06-18 22:01:23 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@35094440
+2017-06-18 22:01:23 INFO  Calc:141 - counting 55 MUL 1111
+2017-06-18 22:01:23 INFO  Calc:138 - counting 1358.00000000000 SUB 61105.00000000000
+2017-06-18 22:01:23 INFO  Calc:138 - counting 0.58686350021 SUB -59747.00000000000
+2017-06-18 22:01:23 INFO  Calc:63 - Creating new Object factory
+2017-06-18 22:01:23 INFO  Calc:68 - Adding result number 0
+2017-06-18 22:01:23 INFO  Calc:68 - Adding result number 1
+2017-06-18 22:01:23 INFO  Calc:76 - Packing results to XML
+
+2017-06-18 22:01:44 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 22:01:44 INFO  Calc:93 - -----------------------------------------------------
+2017-06-18 22:01:44 INFO  Calc:94 - Starting new run with params: D:\project\OneWayCalc\sampleTest.xml, D:\project\OneWayCalc\ResultSampleTest.xml
+2017-06-18 22:01:44 INFO  Calc:95 - -----------------------------------------------------
+
+2017-06-18 22:01:44 INFO  Calc:37 - Creating JAXBContext
+2017-06-18 22:01:44 INFO  Calc:49 - Getting data from XML: D:\project\OneWayCalc\sampleTest.xml
+2017-06-18 22:01:44 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@40f08448
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@276438c9
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@276438c9
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@588df31b
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@588df31b
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@33b37288
+2017-06-18 22:01:44 INFO  Calc:135 - counting 2 SUM 4
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@77a57272
+2017-06-18 22:01:44 INFO  Calc:146 - counting 1 DIV 4
+2017-06-18 22:01:44 INFO  Calc:138 - counting 6.00000000000 SUB 0.25000000000
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@4e4aea35
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@4e4aea35
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@1442d7b5
+2017-06-18 22:01:44 INFO  Calc:135 - counting 12 SUM 55
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@1efee8e7
+2017-06-18 22:01:44 INFO  Calc:141 - counting 123 MUL 4
+2017-06-18 22:01:44 INFO  Calc:138 - counting 67.00000000000 SUB 492.00000000000
+2017-06-18 22:01:44 INFO  Calc:141 - counting 5.75000000000 MUL -425.00000000000
+2017-06-18 22:01:44 INFO  Calc:53 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@1ee807c6
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@76a4d6c
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@76a4d6c
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@517cd4b
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@517cd4b
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@6cc7b4de
+2017-06-18 22:01:44 INFO  Calc:146 - counting 211 DIV 114
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@32cf48b7
+2017-06-18 22:01:44 INFO  Calc:146 - counting 13 DIV 41
+2017-06-18 22:01:44 INFO  Calc:141 - counting 1.85087719298 MUL 0.31707317073
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@679b62af
+2017-06-18 22:01:44 INFO  Calc:121 - Starting counting args of ivan.XMLwrapper.Term@679b62af
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@5cdd8682
+2017-06-18 22:01:44 INFO  Calc:135 - counting 123 SUM 1235
+2017-06-18 22:01:44 INFO  Calc:114 - Starting evaluate ivan.XMLwrapper.Term@d6da883
+2017-06-18 22:01:44 INFO  Calc:141 - counting 55 MUL 1111
+2017-06-18 22:01:44 INFO  Calc:138 - counting 1358.00000000000 SUB 61105.00000000000
+2017-06-18 22:01:44 INFO  Calc:138 - counting 0.58686350021 SUB -59747.00000000000
+2017-06-18 22:01:44 INFO  Calc:63 - Creating new Object factory
+2017-06-18 22:01:44 INFO  Calc:68 - Adding result number 0
+2017-06-18 22:01:44 INFO  Calc:68 - Adding result number 1
+2017-06-18 22:01:44 INFO  Calc:76 - Packing results to XML
+
+2017-06-18 22:02:37 INFO  Calc:31 - Creating JAXBContext
+2017-06-18 22:02:37 INFO  Calc:86 - -----------------------------------------------------
+2017-06-18 22:02:37 INFO  Calc:87 - Starting new run with params: D:\project\OneWayCalc\sampleTest.xml, D:\project\OneWayCalc\ResultSampleTest.xml
+2017-06-18 22:02:37 INFO  Calc:88 - -----------------------------------------------------
+
+2017-06-18 22:02:37 INFO  Calc:31 - Creating JAXBContext
+2017-06-18 22:02:37 INFO  Calc:43 - Getting data from XML: D:\project\OneWayCalc\sampleTest.xml
+2017-06-18 22:02:37 INFO  Calc:47 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@24aa704d
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@34811fc0
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@34811fc0
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@1d5019f0
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@1d5019f0
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@e387e03
+2017-06-18 22:02:37 INFO  Calc:128 - counting 2 SUM 4
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@79e75f91
+2017-06-18 22:02:37 INFO  Calc:139 - counting 1 DIV 4
+2017-06-18 22:02:37 INFO  Calc:131 - counting 6.00000000000 SUB 0.25000000000
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@3238c821
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@3238c821
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@5b82cb8f
+2017-06-18 22:02:37 INFO  Calc:128 - counting 12 SUM 55
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@5276c65a
+2017-06-18 22:02:37 INFO  Calc:134 - counting 123 MUL 4
+2017-06-18 22:02:37 INFO  Calc:131 - counting 67.00000000000 SUB 492.00000000000
+2017-06-18 22:02:37 INFO  Calc:134 - counting 5.75000000000 MUL -425.00000000000
+2017-06-18 22:02:37 INFO  Calc:47 - Getting terms form ivan.XMLwrapper.SimpleCalculator$Expressions$Expression@5ea8bb9d
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@2aa519a9
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@2aa519a9
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@673661c1
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@673661c1
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@3162f6b
+2017-06-18 22:02:37 INFO  Calc:139 - counting 211 DIV 114
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@18f918c7
+2017-06-18 22:02:37 INFO  Calc:139 - counting 13 DIV 41
+2017-06-18 22:02:37 INFO  Calc:134 - counting 1.85087719298 MUL 0.31707317073
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@1a132220
+2017-06-18 22:02:37 INFO  Calc:114 - Starting counting args of ivan.XMLwrapper.Term@1a132220
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@4e7f60ca
+2017-06-18 22:02:37 INFO  Calc:128 - counting 123 SUM 1235
+2017-06-18 22:02:37 INFO  Calc:107 - Starting evaluate ivan.XMLwrapper.Term@7c206319
+2017-06-18 22:02:37 INFO  Calc:134 - counting 55 MUL 1111
+2017-06-18 22:02:37 INFO  Calc:131 - counting 1358.00000000000 SUB 61105.00000000000
+2017-06-18 22:02:37 INFO  Calc:131 - counting 0.58686350021 SUB -59747.00000000000
+2017-06-18 22:02:37 INFO  Calc:57 - Creating new Object factory
+2017-06-18 22:02:37 INFO  Calc:62 - Adding result number 0
+2017-06-18 22:02:37 INFO  Calc:62 - Adding result number 1
+2017-06-18 22:02:37 INFO  Calc:70 - Packing results to XML
+

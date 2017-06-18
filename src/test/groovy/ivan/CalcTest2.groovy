@@ -15,7 +15,7 @@ class CalcTest2 extends GroovyTestCase {
         List<String> countedResult
         List<String> correctResult
         String[] fileNames = ["D:\\project\\OneWayCalc\\sampleTest.xml", "D:\\project\\OneWayCalc\\ResultSampleTest.xml"]
-        String resultFile = "D:\\project\\OneWayCalc\\CorrectResultSampleTest.xml";
+        String resultFile = "D:\\project\\OneWayCalc\\CorrectResultSampleTest.xml"
         new Calc().main(fileNames)
 
         try {
