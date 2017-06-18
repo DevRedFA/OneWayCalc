@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OneWayCalc.iml" filepath="$PROJECT_DIR$/.idea/modules/OneWayCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OneWayCalc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/OneWayCalc_main.iml" group="OneWayCalc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OneWayCalc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/OneWayCalc_test.iml" group="OneWayCalc" />
+    </modules>
+  </component>
+</project>
