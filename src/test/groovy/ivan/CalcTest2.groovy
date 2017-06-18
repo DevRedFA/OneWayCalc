@@ -1,9 +1,10 @@
 package ivan
 
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
+
 import java.nio.file.Files
 import java.nio.file.Paths
-
-//import groovy.util.logging.Slf4j
 
 /**
  * Created by Ivan on 13.06.2017.
@@ -11,12 +12,14 @@ import java.nio.file.Paths
 
 //@Slf4j
 class CalcTest2 extends GroovyTestCase {
+    public static final Logger log = LoggerFactory.getLogger(this.class)
     void testMain() {
         List<String> countedResult
         List<String> correctResult
         String[] fileNames = ["D:\\project\\OneWayCalc\\sampleTest.xml", "D:\\project\\OneWayCalc\\ResultSampleTest.xml"]
         String resultFile = "D:\\project\\OneWayCalc\\CorrectResultSampleTest.xml"
-        new Calc().main(fileNames)
+
+        Calc.main(fileNames)
 
         try {
             BufferedReader reader = Files.newBufferedReader(Paths.get(resultFile))

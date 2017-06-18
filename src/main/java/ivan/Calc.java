@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 
 
 public class Calc {
-    public static final Logger logger = LoggerFactory.getLogger(Calc.class); //LoggerOne
+    private static final Logger logger = LoggerFactory.getLogger(Calc.class); //LoggerOne
     private LinkedList<BigDecimal> results = new LinkedList<>();
     private LinkedList<SimpleCalculator.ExpressionResults.ExpressionResult> resultsExpr = new LinkedList<>();
     private JAXBContext jc;
@@ -26,6 +26,9 @@ public class Calc {
 
     public Calc() {
         try {
+            logger.info("-----------------------------------------------------");
+            logger.info("Starting new RUN");
+            logger.info("-----------------------------------------------------{}", System.lineSeparator());
             logger.info("Creating JAXBContext");
             jc = JAXBContext.newInstance("ivan.XMLwrapper");
             u = jc.createUnmarshaller();
@@ -48,8 +51,10 @@ public class Calc {
             }
         } catch (JAXBException e) {
             logger.error("file {} contains corrupted data: {}", args[0], e);
+            return;
         } catch (FileNotFoundException e) {
             logger.error("File {} doesn't exist", args[0], e);
+            return;
         }
 
         logger.info("Creating new Object factory");
@@ -69,8 +74,10 @@ public class Calc {
             m.marshal(calcResult, new FileOutputStream(args[1]));
         } catch (JAXBException e) {
             logger.error("Errors while marshal to XML: {}", e);
+            return;
         } catch (FileNotFoundException e) {
             logger.error("Cant create file for results {}", e);
+            return;
         }
 
     }
@@ -81,14 +88,14 @@ public class Calc {
 
 
     public static void main(String[] args) {
-        logger.info("-----------------------------------------------------");
-        logger.info("Starting new run with params: {}, {}", args[0], args[1]);
-        logger.info("-----------------------------------------------------{}", System.lineSeparator());
         if (args.length != 2) {
-            logger.error("wrong args");
+            logger.error("wrong args:");
+            for (String s : args) {
+                logger.error(s);
+            }
             return;
         }
-
+        logger.info("Working with params: {}, {}", args[0], args[1]);
         try {
             new Calc().calculate(args);
         } catch (Exception e) {
